@@ -1,0 +1,1474 @@
+﻿Log file open, 07/24/22 00:59:51
+LogInit: Display: Running engine for game: Valleys_UEp
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.166837
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +3:30, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13144385
+LogInit: Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1511) (), CPU: Intel(R) Core(TM) i5-6402P CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 960
+LogInit: Compiled (64-bit): May  2 2020 02:12:11
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: E:/Applications/UE4/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Engine.ini]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.AnisotropicBRDF:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2022.07.23-20.29.51:779][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2022.07.23-20.29.51:780][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2022.07.23-20.29.51:780][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2022.07.23-20.29.51:780][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2022.07.23-20.29.51:835][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Engine.ini]
+[2022.07.23-20.29.51:836][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Engine.ini]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Engine.ini]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.07.23-20.29.51:836][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Engine.ini]
+[2022.07.23-20.29.51:836][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Engine.ini]
+[2022.07.23-20.29.51:840][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Scalability.ini]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Scalability.ini]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Scalability.ini]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Scalability.ini]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.07.23-20.29.51:840][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Scalability.ini]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Scalability.ini]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.07.23-20.29.51:841][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.07.23-20.29.51:842][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.07.23-20.29.51:842][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.07.23-20.29.51:842][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.07.23-20.29.51:842][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.07.23-20.29.51:842][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.07.23-20.29.51:842][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.07.23-20.29.51:842][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.07.23-20.29.51:842][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.07.23-20.29.51:842][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.07.23-20.29.51:842][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.07.23-20.29.51:842][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.07.23-20.29.51:842][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.07.23-20.29.51:842][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.07.23-20.29.51:842][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.07.23-20.29.51:842][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.07.23-20.29.51:842][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Scalability.ini]
+[2022.07.23-20.29.51:842][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.07.23-20.29.51:842][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.07.23-20.29.51:842][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Scalability.ini]
+[2022.07.23-20.29.51:842][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.07.23-20.29.51:842][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.07.23-20.29.51:843][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.07.23-20.29.51:843][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.07.23-20.29.51:843][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.07.23-20.29.51:843][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.07.23-20.29.51:843][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.07.23-20.29.51:843][  0]LogInit: Selected Device Profile: [Windows]
+[2022.07.23-20.29.51:843][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.07.23-20.29.51:843][  0]LogHAL: Display: Platform has ~ 32 GB [34267480064 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.07.23-20.29.51:843][  0]LogInit: Going up to parent DeviceProfile []
+[2022.07.23-20.29.51:843][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Scalability.ini]
+[2022.07.23-20.29.51:843][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.07.23-20.29.51:843][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
+[2022.07.23-20.29.51:843][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Scalability.ini]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Scalability.ini]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Scalability.ini]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.07.23-20.29.51:844][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
+[2022.07.23-20.29.51:845][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Scalability.ini]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Scalability.ini]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.SSR.Quality:4]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.07.23-20.29.51:846][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[r.SSGI.Quality:4]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:2]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:32.0]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:0]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:8.0]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:30.0]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:20.0]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Scalability.ini]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@Cine] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Scalability.ini]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:64]]
+[2022.07.23-20.29.51:847][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:1]]
+[2022.07.23-20.29.51:848][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:32]]
+[2022.07.23-20.29.51:848][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:1]]
+[2022.07.23-20.29.51:848][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:1]]
+[2022.07.23-20.29.51:848][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.07.23-20.29.51:848][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:1]]
+[2022.07.23-20.29.51:848][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.07.23-20.29.51:848][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.07.23-20.29.51:848][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.07.23-20.29.51:848][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.07.23-20.29.51:848][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/AMStudio/Valleys2/Valleys_UEp/Saved/Config/Windows/Engine.ini]
+[2022.07.23-20.29.51:849][  0]LogInit: Computer: AMIROLPHAT_PC
+[2022.07.23-20.29.51:849][  0]LogInit: User: Amir
+[2022.07.23-20.29.51:849][  0]LogInit: CPU Page size=4096, Cores=4
+[2022.07.23-20.29.51:849][  0]LogInit: High frequency timer resolution =2.742188 MHz
+[2022.07.23-20.29.51:849][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2022.07.23-20.29.51:849][  0]LogMemory: Platform Memory Stats for Windows
+[2022.07.23-20.29.51:849][  0]LogMemory: Process Physical Memory: 112.46 MB used, 112.46 MB peak
+[2022.07.23-20.29.51:849][  0]LogMemory: Process Virtual Memory: 95.34 MB used, 95.34 MB peak
+[2022.07.23-20.29.51:850][  0]LogMemory: Physical Memory: 3505.50 MB used,  29174.52 MB free, 32680.02 MB total
+[2022.07.23-20.29.51:850][  0]LogMemory: Virtual Memory: 1008.06 MB used,  134216720.00 MB free, 134217728.00 MB total
+[2022.07.23-20.29.51:869][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.07.23-20.29.51:906][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.07.23-20.29.51:906][  0]LogInit: Using OS detected language (en-US).
+[2022.07.23-20.29.51:906][  0]LogInit: Using OS detected locale (en-US).
+[2022.07.23-20.29.51:909][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2022.07.23-20.29.52:071][  0]LogInit: Setting process to per monitor DPI aware
+[2022.07.23-20.29.52:089][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.07.23-20.29.52:089][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.07.23-20.29.52:192][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.07.23-20.29.52:192][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.07.23-20.29.52:192][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.07.23-20.29.52:192][  0]LogD3D11RHI: D3D11 adapters:
+[2022.07.23-20.29.52:229][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2022.07.23-20.29.52:230][  0]LogD3D11RHI:       2007/0/16340 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.07.23-20.29.52:231][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.07.23-20.29.52:231][  0]LogD3D11RHI:       0/0/16340 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.07.23-20.29.52:231][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.07.23-20.29.52:234][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.07.23-20.29.52:234][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2022.07.23-20.29.52:234][  0]LogWindows: EnumDisplayDevices:
+[2022.07.23-20.29.52:234][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2022.07.23-20.29.52:234][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2022.07.23-20.29.52:234][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2022.07.23-20.29.52:234][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2022.07.23-20.29.52:234][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.07.23-20.29.52:234][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2022.07.23-20.29.52:234][  0]LogD3D11RHI:   Driver Version: 431.36 (internal:26.21.14.3136, unified:431.36)
+[2022.07.23-20.29.52:234][  0]LogD3D11RHI:      Driver Date: 7-3-2019
+[2022.07.23-20.29.52:234][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2022.07.23-20.29.52:252][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.07.23-20.29.52:253][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2022.07.23-20.29.52:253][  0]LogD3D11RHI: Async texture creation enabled
+[2022.07.23-20.29.52:253][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.07.23-20.29.52:314][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.07.23-20.29.52:527][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.07.23-20.29.52:548][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.07.23-20.29.52:548][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.07.23-20.29.52:548][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.07.23-20.29.52:548][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.07.23-20.29.52:548][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.07.23-20.29.52:548][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.07.23-20.29.52:548][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.07.23-20.29.52:548][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.07.23-20.29.52:548][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.07.23-20.29.52:548][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.07.23-20.29.52:567][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.07.23-20.29.52:567][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.07.23-20.29.52:576][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.07.23-20.29.52:584][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.07.23-20.29.52:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.07.23-20.29.52:599][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.07.23-20.29.52:607][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.07.23-20.29.52:615][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.07.23-20.29.52:623][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.07.23-20.29.52:646][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.07.23-20.29.52:646][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.07.23-20.29.52:660][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.07.23-20.29.52:661][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.07.23-20.29.52:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.07.23-20.29.52:676][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.07.23-20.29.52:685][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.07.23-20.29.52:692][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.07.23-20.29.52:692][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.07.23-20.29.52:697][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.07.23-20.29.52:734][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../../AMStudio/Valleys2/Valleys_UEp/Intermediate/Shaders/WorkingDirectory/6536/).
+[2022.07.23-20.29.52:734][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Amir/AppData/Local/Temp/UnrealShaderWorkingDir/D732419241D32A08721D479061769738/'.
+[2022.07.23-20.29.52:734][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.07.23-20.29.52:734][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.07.23-20.29.52:734][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.07.23-20.29.53:574][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.07.23-20.29.53:649][  0]LogDerivedDataCache: Loaded boot cache 0.07s 104MB C:/Users/Amir/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.07.23-20.29.53:649][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Amir/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2022.07.23-20.29.53:649][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../AMStudio/Valleys2/Valleys_UEp/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.07.23-20.29.53:649][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.07.23-20.29.53:649][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../AMStudio/Valleys2/Valleys_UEp/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.07.23-20.29.53:649][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.07.23-20.29.53:660][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.07.23-20.29.53:660][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.07.23-20.29.53:660][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.07.23-20.29.53:661][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Amir/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.07.23-20.29.53:661][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.07.23-20.29.53:661][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.07.23-20.29.53:728][  0]LogSlate: Using FreeType 2.10.0
+[2022.07.23-20.29.53:729][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.07.23-20.29.53:752][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
+[2022.07.23-20.29.53:977][  0]LogInit: Selected Device Profile: [Windows]
+[2022.07.23-20.29.54:098][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.07.23-20.29.54:098][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.07.23-20.29.54:098][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.07.23-20.29.54:098][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.07.23-20.29.54:098][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.07.23-20.29.54:110][  0]LogNetVersion: Valleys_UEp 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 546468619)
+[2022.07.23-20.29.54:536][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002D060890380), frame # 0
+[2022.07.23-20.29.54:536][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002D0607E8680), frame # 0
+[2022.07.23-20.29.54:538][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002D06085C400), frame # 0
+[2022.07.23-20.29.54:848][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.304806 seconds
+[2022.07.23-20.29.54:853][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2022.07.23-20.29.54:853][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2022.07.23-20.29.54:853][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.07.23-20.29.55:117][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.07.23-20.29.55:120][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.07.23-20.29.55:187][  0]SourceControl: Source control is disabled
+[2022.07.23-20.29.55:188][  0]SourceControl: Source control is disabled
+[2022.07.23-20.29.55:189][  0]SourceControl: Source control is disabled
+[2022.07.23-20.29.55:192][  0]SourceControl: Source control is disabled
+[2022.07.23-20.29.55:196][  0]SourceControl: Source control is disabled
+[2022.07.23-20.29.55:205][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2022.07.23-20.29.55:205][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2022.07.23-20.29.55:410][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.07.23-20.29.55:439][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.07.23-20.29.55:439][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.07.23-20.29.55:495][  0]LogOcInput: OculusInput pre-init called
+[2022.07.23-20.29.55:503][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2022.07.23-20.29.55:503][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2022.07.23-20.29.55:556][  0]LogEngine: Initializing Engine...
+[2022.07.23-20.29.55:644][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.07.23-20.29.55:644][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.07.23-20.29.55:645][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.07.23-20.29.55:796][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.07.23-20.29.55:802][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.07.23-20.29.55:802][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002D067EA8C00), frame # 0
+[2022.07.23-20.29.55:802][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002D067E67B00), frame # 0
+[2022.07.23-20.29.55:816][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.23-20.29.55:816][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.23-20.29.55:816][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.23-20.29.55:816][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.23-20.29.55:816][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.23-20.29.55:816][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.23-20.29.55:816][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.23-20.29.55:816][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.23-20.29.55:817][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.07.23-20.29.55:817][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.23-20.29.55:825][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.23-20.29.55:825][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.07.23-20.29.55:855][  0]LogAudioMixer: Display: Using Audio Device C27F390 (NVIDIA High Definition Audio)
+[2022.07.23-20.29.55:859][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.23-20.29.55:861][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.23-20.29.55:861][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.23-20.29.55:862][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.23-20.29.55:863][  0]LogInit: FAudioDevice initialized.
+[2022.07.23-20.29.55:863][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.07.23-20.29.55:954][  0]LogDerivedDataCache: Saved boot cache 0.09s 104MB C:/Users/Amir/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.07.23-20.29.55:955][  0]LogInit: Texture streaming: Enabled
+[2022.07.23-20.29.55:969][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.07.23-20.29.55:969][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.07.23-20.29.55:970][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.07.23-20.29.56:073][  0]LogInit: Transaction tracking system initialized
+[2022.07.23-20.29.56:088][  0]BlueprintLog: New page: Editor Load
+[2022.07.23-20.29.56:140][  0]LocalizationService: Localization service is disabled
+[2022.07.23-20.29.56:448][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2022.07.23-20.29.56:449][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2022.07.23-20.29.56:591][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.07.23-20.29.56:591][  0]LogCook: Display: Mobile HDR setting 1
+[2022.07.23-20.29.56:639][  0]LogFileCache: Scanning file cache for directory 'E:/AMStudio/Valleys2/Valleys_UEp/Content/' took 0.00s
+[2022.07.23-20.29.56:891][  0]SourceControl: Source control is disabled
+[2022.07.23-20.29.56:891][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.411
+[2022.07.23-20.29.56:891][  0]Cmd: MAP LOAD FILE="../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.07.23-20.29.56:891][  0]LightingResults: New page: Lighting Build
+[2022.07.23-20.29.56:931][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.07.23-20.29.56:931][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.23-20.29.56:931][  0]MapCheck: New page: Map Check
+[2022.07.23-20.29.56:931][  0]LightingResults: New page: Lighting Build
+[2022.07.23-20.29.56:940][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002D067EA8C00), frame # 0
+[2022.07.23-20.29.56:940][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002D067E67B00), frame # 0
+[2022.07.23-20.29.56:941][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.07.23-20.30.00:185][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.07.23-20.30.00:185][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002D050BAB400), frame # 0
+[2022.07.23-20.30.00:185][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002D050A82200), frame # 0
+[2022.07.23-20.30.00:578][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.07.23-20.30.00:620][  0]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2022.07.23-20.30.00:669][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2022.07.23-20.30.00:669][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.07.23-20.30.00:669][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.088ms to complete.
+[2022.07.23-20.30.00:669][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 3.778
+[2022.07.23-20.30.00:671][  0]LogUnrealEdMisc: Total Editor Startup Time, took 10.191
+[2022.07.23-20.30.00:761][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.07.23-20.30.01:808][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.23-20.30.01:817][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.23-20.30.01:825][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.23-20.30.01:832][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.23-20.30.02:039][  0]LogCollectionManager: Loaded 0 collections in 0.000748 seconds
+[2022.07.23-20.30.02:621][  0]LogFileCache: Scanning file cache for directory 'E:/AMStudio/Valleys2/Valleys_UEp/Saved/Collections/' took 0.00s
+[2022.07.23-20.30.02:621][  0]LogFileCache: Scanning file cache for directory 'E:/AMStudio/Valleys2/Valleys_UEp/Content/Developers/Amir/Collections/' took 0.00s
+[2022.07.23-20.30.02:621][  0]LogFileCache: Scanning file cache for directory 'E:/AMStudio/Valleys2/Valleys_UEp/Content/Collections/' took 0.00s
+[2022.07.23-20.30.02:621][  0]LogContentBrowser: Native class hierarchy populated in 0.0489 seconds. Added 3426 classes and 820 folders.
+[2022.07.23-20.30.02:877][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.07.23-20.30.05:564][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.07.23-20.30.05:627][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2022.07.23-20.30.06:911][  0]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.07.23-20.30.06:960][  0]LogSlate: Took 0.000088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.07.23-20.30.07:006][  0]LogSlate: Took 0.024690 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.07.23-20.30.07:506][  0]LogRenderer: Reallocating scene render targets to support 1384x492 Format 10 NumSamples 1 (Frame:1).
+[2022.07.23-20.30.07:871][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.07.23-20.30.07:871][  0]LogLoad: (Engine Initialization) Total time: 17.39 seconds
+[2022.07.23-20.30.07:871][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.07.23-20.30.07:936][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2022.07.23-20.30.08:014][  0]LogSlate: Took 0.011560 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.07.23-20.30.08:154][  1]LogAssetRegistry: Asset discovery search completed in 14.4021 seconds
+[2022.07.23-20.30.08:164][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2022.07.23-20.30.41:467][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.07.23-20.30.45:141][943]MapCheck: New page: Map Check
+[2022.07.23-20.30.45:189][943]Cmd: MAP REBUILD ALLVISIBLE
+[2022.07.23-20.30.45:189][943]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.07.23-20.30.45:432][943]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=false
+[2022.07.23-20.30.45:490][943]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2022.07.23-20.30.45:490][943]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2022.07.23-20.30.45:490][943]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2022.07.23-20.30.45:490][943]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2022.07.23-20.30.45:531][943]LogNavigationDataBuild: Display: UNavigationSystemV1::Build total execution time: 0.04s
+[2022.07.23-20.30.45:543][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.07.23-20.30.45:579][943]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.07.23-20.30.45:665][943]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.07.23-20.30.45:682][943]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2022.07.23-20.30.45:682][943]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2022.07.23-20.30.45:682][943]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.07.23-20.30.45:684][943]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.07.23-20.30.45:685][943]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.07.23-20.30.45:687][943]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.07.23-20.30.45:688][943]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.07.23-20.30.45:690][943]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.07.23-20.30.45:691][943]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.07.23-20.30.45:692][943]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.07.23-20.30.47:873][943]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 18
+[2022.07.23-20.30.47:873][943]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 17
+[2022.07.23-20.30.47:873][943]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 16
+[2022.07.23-20.30.47:873][943]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2022.07.23-20.30.47:873][943]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 14
+[2022.07.23-20.30.47:873][943]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2022.07.23-20.30.47:873][943]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2022.07.23-20.30.47:873][943]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 11
+[2022.07.23-20.30.47:873][943]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 10
+[2022.07.23-20.30.47:873][943]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2022.07.23-20.30.47:873][943]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2022.07.23-20.30.47:873][943]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2022.07.23-20.30.47:873][943]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2022.07.23-20.30.47:873][943]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2022.07.23-20.30.47:873][943]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2022.07.23-20.30.47:873][943]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2022.07.23-20.30.47:873][943]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2022.07.23-20.30.47:873][943]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2022.07.23-20.30.47:873][943]TextureStreamingBuild: Display: Compiling optional shaders took 2.299 seconds.
+[2022.07.23-20.30.47:905][943]LogLevel: Display: Export Material TexCoord Scales took 0.032 seconds.
+[2022.07.23-20.30.47:906][943]TextureStreamingBuild: Display: Build Texture Streaming took 0.001 seconds.
+[2022.07.23-20.30.47:915][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.07.23-20.30.48:016][943]LightingResults: New page: Lighting Build - Jul 24, 2022, 5:30:47 AM
+[2022.07.23-20.30.48:244][943]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.07.23-20.30.48:325][943]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.07.23-20.30.48:333][943]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.07.23-20.30.49:843][943]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.07.23-20.30.49:843][943]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6536
+[2022.07.23-20.30.49:943][943]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.07.23-20.30.49:943][943]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.07.23-20.30.49:943][943]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.07.23-20.30.49:943][943]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.07.23-20.30.49:943][943]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.07.23-20.30.50:115][943]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2022.07.23-20.30.50:115][943]MapCheck: New page: TopDownExampleMap - Jul 24, 2022, 5:30:50 AM
+[2022.07.23-20.30.50:127][943]MapCheck: Error: WorldInfo_0 Maps need lighting rebuilt 
+[2022.07.23-20.30.50:186][943]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 71.382ms to complete.
+[2022.07.23-20.30.50:188][943]LogEditorBuildUtils: Build time 0:05
+[2022.07.23-20.30.50:471][943]LogSlate: Took 0.038804 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.07.23-20.30.50:577][945]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer GreenLight, compiling. 
+[2022.07.23-20.30.50:602][945]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer GreenLight, compiling. 
+[2022.07.23-20.30.50:629][945]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2022.07.23-20.30.50:629][945]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2022.07.23-20.30.50:629][945]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2022.07.23-20.30.51:262][946]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2022.07.23-20.30.51:363][951]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.07.23-20.31.07:891][376]LogHttp: Warning: 000002D005E98F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B19259E7C-4B20-949E-B9A3-1D80B217BD54%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=289640b644f9dacaa8e312a4977f0117%7Ccfe2591cf84946f984bc3f77aa803f9d%7Cb59ed483-dd50-429f-84f6-4af775ee4502&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.07.23-20.31.07:891][376]LogHttp: Warning: 000002D005E98F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.07.23-20.31.07:891][376]LogHttp: Warning: 000002D005E98F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.07.23-20.31.07:891][376]LogHttp: Warning: 000002D005E98F00: libcurl info message cache 1 (Closing connection 0)
+[2022.07.23-20.31.07:892][376]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B19259E7C-4B20-949E-B9A3-1D80B217BD54%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=289640b644f9dacaa8e312a4977f0117%7Ccfe2591cf84946f984bc3f77aa803f9d%7Cb59ed483-dd50-429f-84f6-4af775ee4502&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2022.07.23-20.31.21:666][706]Job is a success!
+[2022.07.23-20.31.21:779][707]LogSlate: Took 0.000091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.07.23-20.31.21:976][707]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.064s
+[2022.07.23-20.31.21:976][707]LogVolumetricLightmapImport:      Indirection Texture 64x64x16 = 0.3Mb
+[2022.07.23-20.31.21:976][707]LogVolumetricLightmapImport:      BrickData (all levels) 0.4Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2022.07.23-20.31.21:976][707]LogVolumetricLightmapImport:      Bricks at depth
+[2022.07.23-20.31.21:976][707]LogVolumetricLightmapImport:          0: 17.4% covering 100.0% of volume
+[2022.07.23-20.31.21:976][707]LogVolumetricLightmapImport:          1: 9.8% covering 0.9% of volume
+[2022.07.23-20.31.21:976][707]LogVolumetricLightmapImport:          2: 72.8% covering 0.1% of volume
+[2022.07.23-20.31.21:976][707]LogVolumetricLightmapImport:      Bricks in each level
+[2022.07.23-20.31.21:976][707]LogVolumetricLightmapImport:          TopDownExampleMap 			 92 bricks 	 100.0% (Persistent Level)
+[2022.07.23-20.31.22:892][707]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2022.07.23-20.31.22:892][707]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2022.07.23-20.31.22:892][707]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2022.07.23-20.31.22:892][707]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 512X256)
+[2022.07.23-20.31.22:892][707]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2022.07.23-20.31.22:892][707]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2022.07.23-20.31.22:892][707]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 512X256)
+[2022.07.23-20.31.22:892][707]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 512X512)
+[2022.07.23-20.31.22:892][707]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 512X512)
+[2022.07.23-20.31.22:893][707]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 512X256)
+[2022.07.23-20.31.22:893][707]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 512X512)
+[2022.07.23-20.31.22:893][707]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 512X512)
+[2022.07.23-20.31.22:893][707]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 512X256)
+[2022.07.23-20.31.22:893][707]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 512X512)
+[2022.07.23-20.31.22:893][707]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 512X512)
+[2022.07.23-20.31.22:893][707]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 256X128)
+[2022.07.23-20.31.22:893][707]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 256X256)
+[2022.07.23-20.31.22:893][707]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 256X256)
+[2022.07.23-20.31.22:893][707]LogTexture: Display: Building textures: SkyOcclusion1_7 (AutoDXT, 256X128)
+[2022.07.23-20.31.22:893][707]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 256X256)
+[2022.07.23-20.31.22:893][707]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 256X256)
+[2022.07.23-20.31.22:893][707]LogTexture: Display: Building textures: SkyOcclusion1_8 (AutoDXT, 64X32)
+[2022.07.23-20.31.22:893][707]LogTexture: Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 64X64)
+[2022.07.23-20.31.22:893][707]LogTexture: Display: Building textures: LQ_Lightmap_1_8 (DXT1, 64X64)
+[2022.07.23-20.31.23:002][707]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X64)
+[2022.07.23-20.31.23:002][707]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X64)
+[2022.07.23-20.31.23:002][707]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X64)
+[2022.07.23-20.31.23:003][707]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 256X64)
+[2022.07.23-20.31.23:003][707]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X64)
+[2022.07.23-20.31.23:003][707]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
+[2022.07.23-20.31.23:003][707]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X64)
+[2022.07.23-20.31.23:003][707]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 512X64)
+[2022.07.23-20.31.23:003][707]Lightmass on AMIROLPHAT_PC: 30.9 sec total, 284 ms importing, 461 ms setup, 14.0 sec photons, 16.1 sec processing, 0 ms extra exporting [68/68 mappings]. Threads: 1:04 min total, 29.3 sec processing.
+[2022.07.23-20.31.23:003][707]LogStaticLightingSystem: TopDownExampleMap_BuiltData storing lightmap data for 68 meshes in 8 LightmapResourceClusters (8.5 Meshes per cluster).
+[2022.07.23-20.31.23:017][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.07.23-20.31.23:031][707]LogStaticLightingSystem: Illumination: 35.0 sec (887 ms encoding lightmaps, 49 ms encoding shadowmaps)
+[2022.07.23-20.31.23:048][707]LogStaticLightingSystem: Lightmap texture memory:  3.7 MB (3.7 MB streaming, 0.0 MB non-streaming), 16 textures
+[2022.07.23-20.31.23:048][707]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 8 textures
+[2022.07.23-20.31.23:947][707]DumpUnbuiltLightIteractions
+[2022.07.23-20.31.23:947][707]Lights with unbuilt interactions: 0
+[2022.07.23-20.31.23:947][707]
+[2022.07.23-20.31.23:948][707]Primitives with unbuilt interactions: 0
+[2022.07.23-20.31.24:140][708]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.07.23-20.31.24:140][708]MapCheck: New page: TopDownExampleMap - Jul 24, 2022, 5:31:24 AM
+[2022.07.23-20.31.24:141][708]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.287ms to complete.
+[2022.07.23-20.31.25:783][900]LogSlate: Window 'Message Log' being destroyed
+[2022.07.23-20.31.25:784][900]LogSlate: Window 'Message Log' being destroyed
+[2022.07.23-20.31.26:351][967]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.07.23-20.31.26:456][967]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2022.07.23-20.31.26:794][967]LogSavePackage: Moving '../../../../../../AMStudio/Valleys2/Valleys_UEp/Saved/TopDownExampleMap57A5857344050594EABE08AA65B58F61.tmp' to '../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2022.07.23-20.31.26:855][967]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.421
+[2022.07.23-20.31.26:855][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
+[2022.07.23-20.31.27:118][967]LogSavePackage: Moving '../../../../../../AMStudio/Valleys2/Valleys_UEp/Saved/TopDownExampleMap_BuiltDataCFA30BC0407EBBF8FE5EAEAD9960B09A.tmp' to '../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2022.07.23-20.31.27:128][967]AssetCheck: New page: Asset Save: multiple assets
+[2022.07.23-20.31.27:128][967]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2022.07.23-20.31.27:128][967]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TopDownBP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData
+[2022.07.23-20.31.30:192][314]LogTemp: Repeating last play command: Selected Viewport
+[2022.07.23-20.31.30:213][314]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.23-20.31.30:213][314]PIE: New page: PIE session: TopDownExampleMap (Jul 24, 2022, 5:31:30 AM)
+[2022.07.23-20.31.30:239][314]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.07.23-20.31.30:276][314]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.07.23-20.31.30:276][314]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.07.23-20.31.30:392][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.115754s)
+[2022.07.23-20.31.30:394][314]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.07.23-20.31.30:394][314]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002D00734A400), frame # 7314
+[2022.07.23-20.31.30:394][314]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002D067ABC2C0), frame # 7314
+[2022.07.23-20.31.30:394][314]LogPlayLevel: PIE: World Init took: (0.001574s)
+[2022.07.23-20.31.30:394][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.117595s)
+[2022.07.23-20.31.30:403][314]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.07.23-20.31.30:405][314]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.23-20.31.30:405][314]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.23-20.31.30:405][314]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.23-20.31.30:405][314]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.23-20.31.30:405][314]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.23-20.31.30:405][314]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.23-20.31.30:405][314]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.23-20.31.30:405][314]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.23-20.31.30:405][314]LogAudio: Display: Using built-in audio occlusion.
+[2022.07.23-20.31.30:405][314]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.23-20.31.30:406][314]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.23-20.31.30:406][314]LogAudioMixer: Display: 1: FrontRight
+[2022.07.23-20.31.30:413][314]LogAudioMixer: Display: Using Audio Device C27F390 (NVIDIA High Definition Audio)
+[2022.07.23-20.31.30:413][314]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.23-20.31.30:413][314]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.23-20.31.30:414][314]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.23-20.31.30:414][314]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.23-20.31.30:427][314]LogInit: FAudioDevice initialized.
+[2022.07.23-20.31.30:455][314]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.07.23-20.31.30:535][314]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2022.07.24-01.01.30
+[2022.07.23-20.31.30:535][314]LogWorld: Bringing up level for play took: 0.002556
+[2022.07.23-20.31.30:536][314]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2022.07.23-20.31.30:702][314]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2022.07.23-20.31.30:735][314]PIE: Server logged in
+[2022.07.23-20.31.30:737][314]PIE: Play in editor total start time 0.525 seconds.
+[2022.07.23-20.31.47:163][224]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.07.23-20.31.47:173][224]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2022.07.23-20.31.47:193][224]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2022.07.23-20.31.47:218][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.23-20.31.47:218][224]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.07.23-20.31.47:218][224]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.07.23-20.31.47:218][224]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.07.23-20.31.47:219][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.23-20.31.47:222][224]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.23-20.31.47:224][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.23-20.31.47:233][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.23-20.31.47:234][224]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.07.23-20.31.47:249][224]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002D067ABC2C0), frame # 9224
+[2022.07.23-20.31.47:249][224]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002D00734A400), frame # 9224
+[2022.07.23-20.31.47:250][224]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.07.23-20.31.47:267][226]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2022.07.23-20.31.49:974][545]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2022.07.23-20.31.51:470][663]Cmd: EDIT COPY
+[2022.07.23-20.31.51:749][684]Cmd: EDIT PASTE
+[2022.07.23-20.32.03:220][974]LogSlate: Took 0.018252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.07.23-20.32.16:651][426]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.07.23-20.32.18:849][426]LogSlate: Window 'Delete Assets' being destroyed
+[2022.07.23-20.32.18:910][426]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.07.23-20.32.27:764][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.07.23-20.32.28:896][464]LogSlate: Window 'Save Content' being destroyed
+[2022.07.23-20.32.28:917][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Effects/HolyThings" FILE="../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Effects/HolyThings.uasset" SILENT=true
+[2022.07.23-20.32.28:919][464]LogSavePackage: Moving '../../../../../../AMStudio/Valleys2/Valleys_UEp/Saved/HolyThings1943DCB447948485C5C0CBBBCBC7B9B6.tmp' to '../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Effects/HolyThings.uasset'
+[2022.07.23-20.32.28:929][464]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.07.23-20.32.29:001][464]LogSavePackage: Moving '../../../../../../AMStudio/Valleys2/Valleys_UEp/Saved/TopDownExampleMap1E201B9C46EEDC3D2F5E5ABC764F68EE.tmp' to '../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2022.07.23-20.32.29:007][464]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.087
+[2022.07.23-20.32.29:007][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
+[2022.07.23-20.32.29:170][464]LogSavePackage: Moving '../../../../../../AMStudio/Valleys2/Valleys_UEp/Saved/TopDownExampleMap_BuiltDataC9CBD39C427657BE8E67AABCB1B897B4.tmp' to '../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2022.07.23-20.32.29:179][464]AssetCheck: New page: Asset Save: multiple assets
+[2022.07.23-20.32.29:179][464]LogContentValidation: Display: Validating ParticleSystem /Game/TopDownBP/Effects/HolyThings.HolyThings
+[2022.07.23-20.32.29:179][464]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2022.07.23-20.32.29:179][464]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TopDownBP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData
+[2022.07.23-20.32.30:248][587]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/TopDownBP/Effects/HolyThings.HolyThings
+[2022.07.23-20.32.30:292][587]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.07.23-20.33.07:919][928]LogHttp: Warning: 000002D051814800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B19259E7C-4B20-949E-B9A3-1D80B217BD54%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=289640b644f9dacaa8e312a4977f0117%7Ccfe2591cf84946f984bc3f77aa803f9d%7Cb59ed483-dd50-429f-84f6-4af775ee4502&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.07.23-20.33.07:919][928]LogHttp: Warning: 000002D051814800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.07.23-20.33.07:919][928]LogHttp: Warning: 000002D051814800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.07.23-20.33.07:919][928]LogHttp: Warning: 000002D051814800: libcurl info message cache 1 (Closing connection 1)
+[2022.07.23-20.33.07:919][928]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B19259E7C-4B20-949E-B9A3-1D80B217BD54%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=289640b644f9dacaa8e312a4977f0117%7Ccfe2591cf84946f984bc3f77aa803f9d%7Cb59ed483-dd50-429f-84f6-4af775ee4502&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2022.07.23-20.34.08:663][  0]LogSlate: Window 'Color Picker' being destroyed
+[2022.07.23-20.34.34:759][635]LogMaterial: Display: Material /Game/TopDownBP/Models/Brown2_001.Brown2_001 needed to have new flag set bUsedWithParticleSprites !
+[2022.07.23-20.34.34:762][635]LogMaterial: Display: Missing cached shader map for material Brown2_001, compiling. 
+[2022.07.23-20.34.34:852][636]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 55
+[2022.07.23-20.34.34:852][636]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 45
+[2022.07.23-20.34.34:852][636]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 35
+[2022.07.23-20.34.43:988][306]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
+[2022.07.23-20.34.46:448][577]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 16
+[2022.07.23-20.34.49:046][871]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2022.07.23-20.34.52:061][212]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2022.07.23-20.34.52:086][215]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2022.07.23-20.34.53:212][337]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2022.07.23-20.35.07:934][ 43]LogHttp: Warning: 000002D006658800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B19259E7C-4B20-949E-B9A3-1D80B217BD54%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=289640b644f9dacaa8e312a4977f0117%7Ccfe2591cf84946f984bc3f77aa803f9d%7Cb59ed483-dd50-429f-84f6-4af775ee4502&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.07.23-20.35.07:934][ 43]LogHttp: Warning: 000002D006658800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.07.23-20.35.07:934][ 43]LogHttp: Warning: 000002D006658800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.07.23-20.35.07:934][ 43]LogHttp: Warning: 000002D006658800: libcurl info message cache 1 (Closing connection 2)
+[2022.07.23-20.35.07:943][ 44]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B19259E7C-4B20-949E-B9A3-1D80B217BD54%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=289640b644f9dacaa8e312a4977f0117%7Ccfe2591cf84946f984bc3f77aa803f9d%7Cb59ed483-dd50-429f-84f6-4af775ee4502&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2022.07.23-20.35.59:448][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Effects/HolyThings" FILE="../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Effects/HolyThings.uasset" SILENT=true
+[2022.07.23-20.35.59:471][121]LogSavePackage: Moving '../../../../../../AMStudio/Valleys2/Valleys_UEp/Saved/HolyThings95825665477F24D6111C3E83AEA080EF.tmp' to '../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Effects/HolyThings.uasset'
+[2022.07.23-20.35.59:478][121]AssetCheck: New page: Asset Save: HolyThings
+[2022.07.23-20.35.59:478][121]LogContentValidation: Display: Validating ParticleSystem /Game/TopDownBP/Effects/HolyThings.HolyThings
+[2022.07.23-20.36.00:871][249]LogSlate: Window 'HolyThings' being destroyed
+[2022.07.23-20.36.00:873][249]LogSlate: Window 'HolyThings' being destroyed
+[2022.07.23-20.36.00:873][249]LogCascade: Quitting Cascade. FXSystem=0x000002D00ACB9A20
+[2022.07.23-20.36.00:888][249]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.07.23-20.36.00:888][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.23-20.36.34:971][252]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2022.07.23-20.36.35:005][252]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.07.23-20.36.35:080][252]LogSavePackage: Moving '../../../../../../AMStudio/Valleys2/Valleys_UEp/Saved/TopDownExampleMapC30F87F64A5F68CB79E91DA94AA62A55.tmp' to '../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2022.07.23-20.36.35:086][252]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.091
+[2022.07.23-20.36.35:086][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
+[2022.07.23-20.36.35:252][252]LogSavePackage: Moving '../../../../../../AMStudio/Valleys2/Valleys_UEp/Saved/TopDownExampleMap_BuiltData593C87BF4D69B4DA61D5108422057294.tmp' to '../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2022.07.23-20.36.35:381][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Models/Brown2_001" FILE="../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Models/Brown2_001.uasset" SILENT=true
+[2022.07.23-20.36.35:389][252]LogSavePackage: Moving '../../../../../../AMStudio/Valleys2/Valleys_UEp/Saved/Brown2_0011B3666E5482B20578B303389F8E538A7.tmp' to '../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Models/Brown2_001.uasset'
+[2022.07.23-20.36.35:403][252]AssetCheck: New page: Asset Save: multiple assets
+[2022.07.23-20.36.35:403][252]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2022.07.23-20.36.35:403][252]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TopDownBP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData
+[2022.07.23-20.36.35:404][252]LogContentValidation: Display: Validating Material /Game/TopDownBP/Models/Brown2_001.Brown2_001
+[2022.07.23-20.36.37:380][479]MapCheck: New page: Map Check
+[2022.07.23-20.36.37:389][479]LightingResults: New page: Lighting Build - Jul 24, 2022, 5:36:37 AM
+[2022.07.23-20.36.37:418][479]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.07.23-20.36.37:419][479]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.07.23-20.36.37:419][479]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.07.23-20.36.37:420][479]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.07.23-20.36.37:420][479]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6536
+[2022.07.23-20.36.37:443][479]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.07.23-20.36.37:443][479]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.07.23-20.36.37:443][479]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.07.23-20.36.37:443][479]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.07.23-20.36.37:443][479]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.07.23-20.36.37:549][479]LogEditorBuildUtils: Build time 0:00
+[2022.07.23-20.36.37:586][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.07.23-20.37.01:859][808]Job is a success!
+[2022.07.23-20.37.02:073][810]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.065s
+[2022.07.23-20.37.02:073][810]LogVolumetricLightmapImport:      Indirection Texture 64x64x16 = 0.3Mb
+[2022.07.23-20.37.02:073][810]LogVolumetricLightmapImport:      BrickData (all levels) 0.4Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2022.07.23-20.37.02:073][810]LogVolumetricLightmapImport:      Bricks at depth
+[2022.07.23-20.37.02:073][810]LogVolumetricLightmapImport:          0: 17.4% covering 100.0% of volume
+[2022.07.23-20.37.02:073][810]LogVolumetricLightmapImport:          1: 9.8% covering 0.9% of volume
+[2022.07.23-20.37.02:073][810]LogVolumetricLightmapImport:          2: 72.8% covering 0.1% of volume
+[2022.07.23-20.37.02:073][810]LogVolumetricLightmapImport:      Bricks in each level
+[2022.07.23-20.37.02:073][810]LogVolumetricLightmapImport:          TopDownExampleMap 			 92 bricks 	 100.0% (Persistent Level)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 512X256)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 512X256)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 512X512)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 512X512)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 512X256)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 512X512)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 512X512)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 512X256)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 512X512)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 512X512)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 256X128)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 256X128)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: SkyOcclusion0_8 (AutoDXT, 64X32)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 64X64)
+[2022.07.23-20.37.02:932][810]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 64X64)
+[2022.07.23-20.37.02:980][810]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 1024X64)
+[2022.07.23-20.37.02:980][810]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (BGRA8, 1024X64)
+[2022.07.23-20.37.02:980][810]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 1024X64)
+[2022.07.23-20.37.02:980][810]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (G8, 256X64)
+[2022.07.23-20.37.02:980][810]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (G8, 512X64)
+[2022.07.23-20.37.02:980][810]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (G8, 32X32)
+[2022.07.23-20.37.02:980][810]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 1024X64)
+[2022.07.23-20.37.02:980][810]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (G8, 1024X64)
+[2022.07.23-20.37.02:980][810]LogStaticLightingSystem: TopDownExampleMap_BuiltData storing lightmap data for 68 meshes in 8 LightmapResourceClusters (8.5 Meshes per cluster).
+[2022.07.23-20.37.02:984][810]Lightmass on AMIROLPHAT_PC: 24.8 sec total, 298 ms importing, 446 ms setup, 12.0 sec photons, 12.0 sec processing, 0 ms extra exporting [68/68 mappings]. Threads: 48.1 sec total, 24.5 sec processing.
+[2022.07.23-20.37.02:995][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.07.23-20.37.03:005][810]LogStaticLightingSystem: Illumination: 25.5 sec (822 ms encoding lightmaps, 28 ms encoding shadowmaps)
+[2022.07.23-20.37.03:005][810]LogStaticLightingSystem: Lightmap texture memory:  3.7 MB (3.7 MB streaming, 0.0 MB non-streaming), 16 textures
+[2022.07.23-20.37.03:005][810]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 8 textures
+[2022.07.23-20.37.03:450][810]DumpUnbuiltLightIteractions
+[2022.07.23-20.37.03:450][810]Lights with unbuilt interactions: 0
+[2022.07.23-20.37.03:450][810]
+[2022.07.23-20.37.03:450][810]Primitives with unbuilt interactions: 0
+[2022.07.23-20.37.03:610][811]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.07.23-20.37.03:610][811]MapCheck: New page: TopDownExampleMap - Jul 24, 2022, 5:37:03 AM
+[2022.07.23-20.37.03:610][811]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.304ms to complete.
+[2022.07.23-20.37.06:553][161]LogTemp: Repeating last play command: Selected Viewport
+[2022.07.23-20.37.06:557][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.23-20.37.06:558][161]PIE: New page: PIE session: TopDownExampleMap (Jul 24, 2022, 5:37:06 AM)
+[2022.07.23-20.37.06:558][161]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.07.23-20.37.06:586][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028254s)
+[2022.07.23-20.37.06:587][161]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.07.23-20.37.06:587][161]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002D0061B7800), frame # 44161
+[2022.07.23-20.37.06:587][161]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002D050A10900), frame # 44161
+[2022.07.23-20.37.06:587][161]LogPlayLevel: PIE: World Init took: (0.001482s)
+[2022.07.23-20.37.06:587][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.029894s)
+[2022.07.23-20.37.06:597][161]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.07.23-20.37.06:599][161]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.23-20.37.06:599][161]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.23-20.37.06:599][161]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.23-20.37.06:599][161]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.23-20.37.06:599][161]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.23-20.37.06:599][161]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.23-20.37.06:599][161]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.23-20.37.06:599][161]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.23-20.37.06:599][161]LogAudio: Display: Using built-in audio occlusion.
+[2022.07.23-20.37.06:599][161]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.23-20.37.06:600][161]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.23-20.37.06:600][161]LogAudioMixer: Display: 1: FrontRight
+[2022.07.23-20.37.06:608][161]LogAudioMixer: Display: Using Audio Device C27F390 (NVIDIA High Definition Audio)
+[2022.07.23-20.37.06:608][161]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.23-20.37.06:608][161]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.23-20.37.06:608][161]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.23-20.37.06:609][161]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.23-20.37.06:621][161]LogInit: FAudioDevice initialized.
+[2022.07.23-20.37.06:626][161]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.07.23-20.37.06:628][161]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2022.07.24-01.07.06
+[2022.07.23-20.37.06:628][161]LogWorld: Bringing up level for play took: 0.002154
+[2022.07.23-20.37.06:628][161]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2022.07.23-20.37.06:631][161]PIE: Server logged in
+[2022.07.23-20.37.06:631][161]PIE: Play in editor total start time 0.074 seconds.
+[2022.07.23-20.37.07:984][318]LogHttp: Warning: 000002D07CD02B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B19259E7C-4B20-949E-B9A3-1D80B217BD54%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=289640b644f9dacaa8e312a4977f0117%7Ccfe2591cf84946f984bc3f77aa803f9d%7Cb59ed483-dd50-429f-84f6-4af775ee4502&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.07.23-20.37.07:984][318]LogHttp: Warning: 000002D07CD02B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.07.23-20.37.07:984][318]LogHttp: Warning: 000002D07CD02B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.07.23-20.37.07:984][318]LogHttp: Warning: 000002D07CD02B00: libcurl info message cache 1 (Closing connection 3)
+[2022.07.23-20.37.07:984][318]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B19259E7C-4B20-949E-B9A3-1D80B217BD54%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=289640b644f9dacaa8e312a4977f0117%7Ccfe2591cf84946f984bc3f77aa803f9d%7Cb59ed483-dd50-429f-84f6-4af775ee4502&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2022.07.23-20.37.21:261][910]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.07.23-20.37.21:280][910]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2022.07.23-20.37.21:300][910]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2022.07.23-20.37.21:300][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.23-20.37.21:300][910]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.07.23-20.37.21:300][910]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.07.23-20.37.21:300][910]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.07.23-20.37.21:301][910]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.23-20.37.21:308][910]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.23-20.37.21:309][910]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.23-20.37.21:318][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.23-20.37.21:319][910]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.07.23-20.37.21:336][910]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002D050A10900), frame # 45910
+[2022.07.23-20.37.21:336][910]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002D0061B7800), frame # 45910
+[2022.07.23-20.37.21:337][910]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.07.23-20.37.21:378][912]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2022.07.23-20.37.29:796][694]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/TopDownBP/Models/GreenLight.GreenLight
+[2022.07.23-20.37.29:815][694]LogMaterial: Display: Missing cached shader map for material GreenLight, compiling. 
+[2022.07.23-20.37.30:593][694]LogMaterial: Display: Missing cached shader map for material GreenLight, compiling. 
+[2022.07.23-20.37.30:612][694]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
+[2022.07.23-20.37.30:612][694]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 26
+[2022.07.23-20.37.30:612][694]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 25
+[2022.07.23-20.37.30:615][694]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2022.07.23-20.37.30:660][694]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.07.23-20.37.30:975][695]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 28
+[2022.07.23-20.37.31:320][709]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 27
+[2022.07.23-20.37.31:330][710]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 26
+[2022.07.23-20.37.31:910][753]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 25
+[2022.07.23-20.37.32:326][798]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 24
+[2022.07.23-20.37.32:399][806]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
+[2022.07.23-20.37.32:912][859]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 22
+[2022.07.23-20.37.33:749][949]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 21
+[2022.07.23-20.37.33:749][949]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
+[2022.07.23-20.37.34:143][991]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
+[2022.07.23-20.37.34:175][994]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 18
+[2022.07.23-20.37.34:826][ 63]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 17
+[2022.07.23-20.37.34:877][ 69]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 16
+[2022.07.23-20.37.35:186][102]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2022.07.23-20.37.35:428][125]LogMaterial: Display: Missing cached shader map for material GreenLight, compiling. 
+[2022.07.23-20.37.35:446][125]LogMaterial: Display: Missing cached shader map for material GreenLight, compiling. 
+[2022.07.23-20.37.35:895][167]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 31
+[2022.07.23-20.37.37:164][284]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 30
+[2022.07.23-20.37.37:251][292]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
+[2022.07.23-20.37.37:481][313]LogMaterialEditor: Saving and Compiling material GreenLight
+[2022.07.23-20.37.38:001][313]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 28
+[2022.07.23-20.37.38:018][313]LogMaterial: Display: Missing cached shader map for material GreenLight, compiling. 
+[2022.07.23-20.37.38:102][313]LogMaterial: Display: Missing cached shader map for material GreenLight, compiling. 
+[2022.07.23-20.37.38:182][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.07.23-20.37.38:187][313]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.07.23-20.37.38:702][313]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 79
+[2022.07.23-20.37.38:702][313]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 78
+[2022.07.23-20.37.38:702][313]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 77
+[2022.07.23-20.37.38:702][313]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 76
+[2022.07.23-20.37.39:214][313]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 75
+[2022.07.23-20.37.39:214][313]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 74
+[2022.07.23-20.37.39:214][313]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 73
+[2022.07.23-20.37.39:726][313]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 72
+[2022.07.23-20.37.39:726][313]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 71
+[2022.07.23-20.37.39:726][313]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 70
+[2022.07.23-20.37.40:238][313]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 69
+[2022.07.23-20.37.40:238][313]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 68
+[2022.07.23-20.37.40:238][313]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 67
+[2022.07.23-20.37.40:238][313]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 66
+[2022.07.23-20.37.40:750][313]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 65
+[2022.07.23-20.37.40:750][313]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 64
+[2022.07.23-20.37.40:750][313]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 63
+[2022.07.23-20.37.40:750][313]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 62
+[2022.07.23-20.37.41:262][313]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 61
+[2022.07.23-20.37.41:262][313]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 60
+[2022.07.23-20.37.41:774][313]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 59
+[2022.07.23-20.37.41:774][313]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 58
+[2022.07.23-20.37.42:286][313]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 57
+[2022.07.23-20.37.42:286][313]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 56
+[2022.07.23-20.37.42:286][313]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 55
+[2022.07.23-20.37.42:797][313]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 54
+[2022.07.23-20.37.42:797][313]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 53
+[2022.07.23-20.37.42:797][313]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 52
+[2022.07.23-20.37.43:169][313]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 51
+[2022.07.23-20.37.43:169][313]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 50
+[2022.07.23-20.37.43:169][313]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 40
+[2022.07.23-20.37.43:172][313]TextureStreamingBuild: Display: Compiling optional shaders took 4.990 seconds.
+[2022.07.23-20.37.43:183][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.07.23-20.37.43:739][313]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 30
+[2022.07.23-20.37.48:343][313]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
+[2022.07.23-20.37.48:855][313]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2022.07.23-20.37.48:855][313]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 8
+[2022.07.23-20.37.49:879][313]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2022.07.23-20.37.50:392][313]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2022.07.23-20.37.50:392][313]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2022.07.23-20.37.51:335][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Models/GreenLight" FILE="../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Models/GreenLight.uasset" SILENT=true
+[2022.07.23-20.37.51:360][313]LogSavePackage: Moving '../../../../../../AMStudio/Valleys2/Valleys_UEp/Saved/GreenLight32A292F747CDB81DF28C8DA839F80D64.tmp' to '../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Models/GreenLight.uasset'
+[2022.07.23-20.37.51:397][313]AssetCheck: New page: Asset Save: GreenLight
+[2022.07.23-20.37.51:397][313]LogContentValidation: Display: Validating Material /Game/TopDownBP/Models/GreenLight.GreenLight
+[2022.07.23-20.37.51:412][313]MaterialEditorStats: Base pass shader: 79 instructions
+[2022.07.23-20.37.51:412][313]MaterialEditorStats: Base pass shader with Surface Lightmap: 122 instructions
+[2022.07.23-20.37.51:412][313]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 106 instructions
+[2022.07.23-20.37.51:412][313]MaterialEditorStats: Base pass vertex shader: 165 instructions
+[2022.07.23-20.37.51:412][313]MaterialEditorStats: Texture samplers: 4/16
+[2022.07.23-20.37.54:613][651]LogSlate: Window 'GreenLight' being destroyed
+[2022.07.23-20.37.54:617][651]LogSlate: Window 'GreenLight' being destroyed
+[2022.07.23-20.37.54:633][651]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.07.23-20.37.54:633][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.23-20.37.56:534][742]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.07.23-20.37.57:746][742]LogSlate: Window 'Save Content' being destroyed
+[2022.07.23-20.37.57:762][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
+[2022.07.23-20.37.57:926][742]LogSavePackage: Moving '../../../../../../AMStudio/Valleys2/Valleys_UEp/Saved/TopDownExampleMap_BuiltDataDF5788DD465BAB517CD112AD1DD4C3EE.tmp' to '../../../../../../AMStudio/Valleys2/Valleys_UEp/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2022.07.23-20.37.57:932][742]AssetCheck: New page: Asset Save: TopDownExampleMap_BuiltData
+[2022.07.23-20.37.57:932][742]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TopDownBP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData
+[2022.07.23-20.38.03:227][322]LogTemp: Repeating last play command: Selected Viewport
+[2022.07.23-20.38.03:231][322]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.23-20.38.03:231][322]PIE: New page: PIE session: TopDownExampleMap (Jul 24, 2022, 5:38:03 AM)
+[2022.07.23-20.38.03:232][322]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.07.23-20.38.03:259][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027432s)
+[2022.07.23-20.38.03:260][322]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.07.23-20.38.03:260][322]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002D0BB416600), frame # 48322
+[2022.07.23-20.38.03:260][322]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002D0009F2C00), frame # 48322
+[2022.07.23-20.38.03:260][322]LogPlayLevel: PIE: World Init took: (0.001402s)
+[2022.07.23-20.38.03:261][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.029033s)
+[2022.07.23-20.38.03:270][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.07.23-20.38.03:272][322]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.07.23-20.38.03:272][322]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.07.23-20.38.03:272][322]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.07.23-20.38.03:272][322]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.07.23-20.38.03:272][322]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.07.23-20.38.03:272][322]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.07.23-20.38.03:272][322]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.07.23-20.38.03:272][322]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.07.23-20.38.03:272][322]LogAudio: Display: Using built-in audio occlusion.
+[2022.07.23-20.38.03:272][322]LogAudioMixer: Display: Initializing audio mixer.
+[2022.07.23-20.38.03:273][322]LogAudioMixer: Display: 0: FrontLeft
+[2022.07.23-20.38.03:273][322]LogAudioMixer: Display: 1: FrontRight
+[2022.07.23-20.38.03:280][322]LogAudioMixer: Display: Using Audio Device C27F390 (NVIDIA High Definition Audio)
+[2022.07.23-20.38.03:280][322]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.07.23-20.38.03:280][322]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.07.23-20.38.03:280][322]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.07.23-20.38.03:280][322]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.07.23-20.38.03:293][322]LogInit: FAudioDevice initialized.
+[2022.07.23-20.38.03:303][322]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.07.23-20.38.03:305][322]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2022.07.24-01.08.03
+[2022.07.23-20.38.03:306][322]LogWorld: Bringing up level for play took: 0.002087
+[2022.07.23-20.38.03:306][322]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2022.07.23-20.38.03:308][322]PIE: Server logged in
+[2022.07.23-20.38.03:309][322]PIE: Play in editor total start time 0.078 seconds.
+[2022.07.23-20.38.12:836][457]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.07.23-20.38.12:850][457]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2022.07.23-20.38.12:870][457]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2022.07.23-20.38.12:870][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.23-20.38.12:870][457]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.07.23-20.38.12:870][457]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.07.23-20.38.12:870][457]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.07.23-20.38.12:871][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.23-20.38.12:875][457]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.07.23-20.38.12:876][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.07.23-20.38.12:886][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.07.23-20.38.12:886][457]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2022.07.23-20.38.12:904][457]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002D0009F2C00), frame # 49457
+[2022.07.23-20.38.12:904][457]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002D0BB416600), frame # 49457
+[2022.07.23-20.38.12:905][457]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.07.23-20.38.12:944][459]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2022.07.23-20.38.14:028][510]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/TopDownBP/Models/GreenLight.GreenLight
+[2022.07.23-20.38.14:029][510]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.38.14:125][510]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.38.14:142][510]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.38.14:158][510]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
+[2022.07.23-20.38.14:158][510]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 26
+[2022.07.23-20.38.14:158][510]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 25
+[2022.07.23-20.38.14:161][510]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2022.07.23-20.38.15:684][626]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 28
+[2022.07.23-20.38.17:477][798]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.38.17:495][798]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.38.17:648][812]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 31
+[2022.07.23-20.38.18:690][912]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 30
+[2022.07.23-20.38.19:273][965]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
+[2022.07.23-20.38.21:084][144]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 28
+[2022.07.23-20.38.21:220][155]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
+[2022.07.23-20.38.21:473][181]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 26
+[2022.07.23-20.38.21:728][211]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 25
+[2022.07.23-20.38.21:906][231]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 24
+[2022.07.23-20.38.22:562][297]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 23
+[2022.07.23-20.38.22:983][343]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2022.07.23-20.38.23:100][354]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2022.07.23-20.38.23:738][422]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 20
+[2022.07.23-20.38.24:209][472]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2022.07.23-20.38.24:276][479]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
+[2022.07.23-20.38.25:311][586]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 17
+[2022.07.23-20.38.25:381][593]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 16
+[2022.07.23-20.38.25:528][605]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2022.07.23-20.38.25:604][611]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 14
+[2022.07.23-20.38.26:599][713]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
+[2022.07.23-20.38.26:665][720]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2022.07.23-20.38.26:924][747]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.38.27:090][763]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 27
+[2022.07.23-20.38.27:454][805]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 26
+[2022.07.23-20.38.27:518][812]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 25
+[2022.07.23-20.38.27:569][818]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2022.07.23-20.38.27:863][848]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.38.28:344][901]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 27
+[2022.07.23-20.38.28:500][919]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 26
+[2022.07.23-20.38.28:716][944]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
+[2022.07.23-20.38.28:971][970]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2022.07.23-20.38.29:411][ 18]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 23
+[2022.07.23-20.38.29:677][ 49]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
+[2022.07.23-20.38.29:857][ 70]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2022.07.23-20.38.29:948][ 80]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.38.29:948][ 80]LogMaterial: Warning: /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.07.23-20.38.29:948][ 80]LogMaterial: Display: 	Light function materials must be opaque.
+[2022.07.23-20.38.29:955][ 80]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.38.29:955][ 80]LogMaterial: Warning: /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.07.23-20.38.29:955][ 80]LogMaterial: Display: 	Light function materials must be opaque.
+[2022.07.23-20.38.29:958][ 80]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.38.29:958][ 80]LogMaterial: Warning: /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.07.23-20.38.29:958][ 80]LogMaterial: Display: 	Light function materials must be opaque.
+[2022.07.23-20.38.29:961][ 80]MaterialEditorStats: Error: [SM5] Light function materials must be opaque.
+[2022.07.23-20.38.34:285][484]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.38.34:286][484]LogMaterial: Warning: /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.07.23-20.38.34:286][484]LogMaterial: Display: 	Light function materials must be opaque.
+[2022.07.23-20.38.35:743][648]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.38.35:744][648]LogMaterial: Warning: /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.07.23-20.38.35:744][648]LogMaterial: Display: 	Light function materials must be opaque.
+[2022.07.23-20.38.35:748][648]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2022.07.23-20.38.35:764][649]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2022.07.23-20.38.35:764][649]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2022.07.23-20.38.35:764][649]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2022.07.23-20.38.36:770][747]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2022.07.23-20.38.42:232][248]LogMaterialEditor: Saving and Compiling material GreenLight
+[2022.07.23-20.38.47:340][248]LogSlate: Window 'Warning: Compilation errors in this Material' being destroyed
+[2022.07.23-20.38.52:901][835]LogMaterialEditor: Saving and Compiling material GreenLight
+[2022.07.23-20.38.59:931][835]LogSlate: Window 'Warning: Compilation errors in this Material' being destroyed
+[2022.07.23-20.39.08:013][649]LogHttp: Warning: 000002D0776EAB00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B19259E7C-4B20-949E-B9A3-1D80B217BD54%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=289640b644f9dacaa8e312a4977f0117%7Ccfe2591cf84946f984bc3f77aa803f9d%7Cb59ed483-dd50-429f-84f6-4af775ee4502&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.07.23-20.39.08:013][649]LogHttp: Warning: 000002D0776EAB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.07.23-20.39.08:013][649]LogHttp: Warning: 000002D0776EAB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.07.23-20.39.08:013][649]LogHttp: Warning: 000002D0776EAB00: libcurl info message cache 1 (Closing connection 4)
+[2022.07.23-20.39.08:021][650]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B19259E7C-4B20-949E-B9A3-1D80B217BD54%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=289640b644f9dacaa8e312a4977f0117%7Ccfe2591cf84946f984bc3f77aa803f9d%7Cb59ed483-dd50-429f-84f6-4af775ee4502&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2022.07.23-20.39.23:416][385]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.39.23:443][385]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 29
+[2022.07.23-20.39.23:443][385]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 28
+[2022.07.23-20.39.23:443][385]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 27
+[2022.07.23-20.39.24:124][442]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 26
+[2022.07.23-20.39.24:359][464]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 25
+[2022.07.23-20.39.24:861][510]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 24
+[2022.07.23-20.39.25:470][574]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
+[2022.07.23-20.39.25:660][590]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
+[2022.07.23-20.39.26:603][685]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2022.07.23-20.39.26:817][707]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2022.07.23-20.39.27:089][736]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2022.07.23-20.39.27:848][818]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
+[2022.07.23-20.39.27:848][818]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 17
+[2022.07.23-20.39.27:995][835]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 16
+[2022.07.23-20.39.28:038][840]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2022.07.23-20.39.28:451][887]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 14
+[2022.07.23-20.39.28:661][904]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2022.07.23-20.39.28:711][909]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 12
+[2022.07.23-20.39.28:926][934]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 11
+[2022.07.23-20.39.29:099][953]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.39.29:158][956]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 29
+[2022.07.23-20.39.29:541][975]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 28
+[2022.07.23-20.39.29:551][976]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
+[2022.07.23-20.39.30:085][ 31]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 26
+[2022.07.23-20.39.30:327][ 59]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 25
+[2022.07.23-20.39.30:390][ 65]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 24
+[2022.07.23-20.39.30:812][114]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 23
+[2022.07.23-20.39.30:936][128]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2022.07.23-20.39.31:461][189]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2022.07.23-20.39.31:471][190]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 20
+[2022.07.23-20.39.31:692][216]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
+[2022.07.23-20.39.32:153][269]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 18
+[2022.07.23-20.39.32:341][291]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
+[2022.07.23-20.39.32:399][298]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 16
+[2022.07.23-20.39.32:434][302]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
+[2022.07.23-20.39.32:866][352]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 14
+[2022.07.23-20.39.33:019][370]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
+[2022.07.23-20.39.33:138][384]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 12
+[2022.07.23-20.39.33:392][413]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2022.07.23-20.39.33:673][444]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2022.07.23-20.39.33:894][466]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2022.07.23-20.39.35:643][615]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2022.07.23-20.39.35:643][615]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2022.07.23-20.39.35:985][652]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2022.07.23-20.39.36:311][682]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2022.07.23-20.39.36:311][682]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2022.07.23-20.39.36:534][704]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2022.07.23-20.39.36:722][725]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2022.07.23-20.39.37:143][773]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2022.07.23-20.39.38:770][948]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.39.38:791][948]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
+[2022.07.23-20.39.38:792][948]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 26
+[2022.07.23-20.39.38:792][948]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 25
+[2022.07.23-20.39.39:770][ 46]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2022.07.23-20.39.40:845][156]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 23
+[2022.07.23-20.39.40:970][169]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 22
+[2022.07.23-20.39.42:138][287]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2022.07.23-20.39.43:342][406]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.39.43:710][440]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 29
+[2022.07.23-20.39.43:986][467]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 28
+[2022.07.23-20.39.45:167][586]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
+[2022.07.23-20.39.45:211][590]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 26
+[2022.07.23-20.39.45:779][647]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.39.46:551][724]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.39.46:618][729]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 27
+[2022.07.23-20.39.47:280][797]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.39.47:479][813]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 27
+[2022.07.23-20.39.47:844][850]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 26
+[2022.07.23-20.39.48:317][903]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 25
+[2022.07.23-20.39.48:388][911]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 24
+[2022.07.23-20.39.50:408][113]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 23
+[2022.07.23-20.39.51:047][175]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 22
+[2022.07.23-20.39.51:794][250]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2022.07.23-20.39.51:893][260]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
+[2022.07.23-20.39.52:479][320]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
+[2022.07.23-20.39.53:617][437]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 18
+[2022.07.23-20.39.54:122][490]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.39.54:123][490]LogMaterial: Warning: /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.07.23-20.39.54:123][490]LogMaterial: Display: 	Volume materials must use an Additive blend mode.
+[2022.07.23-20.39.54:132][490]MaterialEditorStats: Error: [SM5] Volume materials must use an Additive blend mode.
+[2022.07.23-20.39.58:006][885]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.39.58:021][885]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2022.07.23-20.39.58:021][885]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2022.07.23-20.39.58:021][885]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2022.07.23-20.39.59:014][985]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2022.07.23-20.39.59:194][  4]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 8
+[2022.07.23-20.39.59:956][ 80]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2022.07.23-20.40.00:100][ 95]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2022.07.23-20.40.00:309][117]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2022.07.23-20.40.00:467][134]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2022.07.23-20.40.00:734][162]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2022.07.23-20.40.00:789][168]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2022.07.23-20.40.01:150][206]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2022.07.23-20.40.01:715][261]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2022.07.23-20.40.01:716][261]MaterialEditorStats: Base pass vertex shader: 165 instructions
+[2022.07.23-20.40.01:716][261]MaterialEditorStats: Texture samplers: 4/16
+[2022.07.23-20.40.12:925][380]LogMaterialEditor: Saving and Compiling material GreenLight
+[2022.07.23-20.40.13:463][380]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.07.23-20.40.15:602][380]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2022.07.23-20.40.15:602][380]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2022.07.23-20.40.15:602][380]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2022.07.23-20.40.15:602][380]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2022.07.23-20.40.15:602][380]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2022.07.23-20.40.15:602][380]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2022.07.23-20.40.15:602][380]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
+[2022.07.23-20.40.15:602][380]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2022.07.23-20.40.15:602][380]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2022.07.23-20.40.15:603][380]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2022.07.23-20.40.15:603][380]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2022.07.23-20.40.15:603][380]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2022.07.23-20.40.15:603][380]LogD3D11RHI: Error: D3DRHI->GetFactory()->CreateSwapChain(DXGIDevice, &SwapChainDesc, SwapChain.GetInitReference()) failed 
+ at D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/Windows/WindowsD3D11Viewport.cpp:212 
+ with error E_OUTOFMEMORY
